@@ -1,0 +1,150 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 0;
+}
+
+a{
+    color: seashell;
+}
+
+.header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+
+}
+
+.logo{
+    cursor: pointer;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.main{
+    height: 700px;
+    width: 1200px;
+    margin: 30px auto;
+
+}
+
+#mission{
+    height: 700px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1gau0h*_ga*MzA3NjQ0NDM1LjE2NjYyMDg3NTE.*_ga_3LRZM6TM9L*MTY2ODc5OTQ0Ny41NC4xLjE2Njg4MDA2NTkuMC4wLjA.);
+    display: flex;
+    }
+
+#mission .content{
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+#store{
+    width: 1000px;
+    margin: auto;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+    
+.img-fig img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+
+
+.locations{
+    height: 500px;
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1efevml*_ga*MzA3NjQ0NDM1LjE2NjYyMDg3NTE.*_ga_3LRZM6TM9L*MTY2ODc5OTQ0Ny41NC4xLjE2Njg4MDA2NTkuMC4wLjA.);
+    background-position: center top;
+
+}
+
+.loc-containers-3{
+    display: block;
+    margin: auto;
+}
+
+.locations .loc{
+    color: #c0c0c0;
+    margin: auto;
+    display: block;
+}
+
+#containers-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    flex: sp;
+}
+
+.locations .box{
+    height: 300px;
+    width: 300px;
+    padding: auto;
+    opacity: 1;
+    background-color: black;
+    margin: 10px;
+    
+}
+h3, p{
+    padding: 2.5%;
+}
+
+.footer{
+    height: 200px;
+    margin: auto;
+}
+
+.copy{
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
